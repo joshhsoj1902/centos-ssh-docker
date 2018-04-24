@@ -1,4 +1,4 @@
-FROM jdeathe/centos-ssh:latest@sha256:d765a554b33ea446f584acb69d001f8aadf8520176d37c870396b40853161e8b
+FROM jdeathe/centos-ssh:latest@sha256:da6069a83e1ab84b7e471827f416fe4053337417dd03e7cdf35c4ca8fca807ef
 
 RUN yum install -y wget \
  && wget -qO- https://get.docker.com/ | sh \
