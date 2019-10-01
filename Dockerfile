@@ -1,4 +1,4 @@
-FROM jdeathe/centos-ssh:latest@sha256:68a64b81241322d960be61d787b0e360008fe7ab358e00ed07b6cbb287e8e422
+FROM jdeathe/centos-ssh:latest@sha256:808153e5a72a4e0e0683a4c445bb8b3bb5f6c01cba5ee3eb5cc059ea3bd565c8
 
 RUN yum install -y vim
 
